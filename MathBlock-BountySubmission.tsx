@@ -8,8 +8,8 @@
  * ✓ Shows how to instantiate the BlockNote editor with this custom block
  */
 
-import { defaultBlockSpecs } from "@blocknote/core";
-import { BlockNoteSchema, createReactBlockSpec } from "@blocknote/react";
+import { defaultBlockSpecs, BlockNoteSchema } from "@blocknote/core";
+import { createReactBlockSpec } from "@blocknote/react";
 import { useCreateBlockNote } from "@blocknote/react";
 import { BlockNoteView } from "@blocknote/mantine";
 import "@blocknote/mantine/style.css";
